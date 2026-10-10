@@ -1,0 +1,20 @@
+[project]
+name = "local-job-finder"
+version = "0.1.0"
+description = "Rule-based local job eligibility and ranking tool"
+requires-python = ">=3.12"
+dependencies = [
+  "pandas>=2.2,<3",
+  "requests>=2.32,<3",
+  "streamlit>=1.57,<2",
+  "python-dotenv>=1.0,<2",
+  "pyyaml>=6.0,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

@@ -1,0 +1,48 @@
+profile:
+  id: experienced
+career:
+  current_experience_years: 3
+  accepted_status: [ENTRY, CAREER_IRRELEVANT, ENTRY_AND_CAREER, EXPERIENCED, REVIEW]
+  max_required_experience_years: 3
+language:
+  certifications: [TOEIC]
+  allow_required_language: true
+  allow_preferred_language: true
+  allow_review_language: true
+driving:
+  has_driving_license: true
+  licenses: [CLASS_2_NORMAL]
+  allow_required_without_license: false
+  allow_preferred_without_license: true
+  allow_review: true
+regions:
+  BUSAN: 10
+  SEOUL: 20
+  OTHER: 0
+target_job_categories:
+  DATA_ANALYSIS: 30
+  DATA_OPERATION: 20
+  BI: 20
+  DATA_ENGINEERING: 30
+  DX: 10
+  AUTOMATION: 10
+  SMART_FACTORY: 5
+  QUALITY_DATA: 5
+  PROCESS_DATA: 5
+skills:
+  PYTHON: 10
+  SQL: 10
+company_preferences:
+  SME: 5
+  STARTUP: 5
+  MID: 5
+  UNKNOWN: 5
+  LARGE: 5
+scoring:
+  skill_cap: 20
+  related_score: 5
+  negative_penalty: 20
+  recommendation_thresholds:
+    HIGH: 85
+    GOOD: 70
+    REVIEW: 50

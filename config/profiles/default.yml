@@ -1,0 +1,61 @@
+profile:
+  id: default
+career:
+  current_experience_years: 0
+  accepted_status: [ENTRY, CAREER_IRRELEVANT, ENTRY_AND_CAREER, REVIEW]
+  max_required_experience_years: 0
+language:
+  certifications: []
+  allow_required_language: false
+  allow_preferred_language: true
+  allow_review_language: true
+  overseas_travel_available: true
+  overseas_assignment_available: true
+driving:
+  has_driving_license: false
+  licenses: []
+  allow_required_without_license: false
+  allow_preferred_without_license: true
+  allow_review: true
+regions:
+  BUSAN: 20
+  GIMHAE: 17
+  YANGSAN: 17
+  CHANGWON: 16
+  GEOJE: 15
+  JINJU: 15
+  OTHER_GYEONGNAM: 15
+  ULSAN: 14
+  DAEGU: 13
+  OTHER: 0
+target_job_categories:
+  DATA_ANALYSIS: 24
+  DATA_OPERATION: 24
+  BI: 24
+  DATA_ENGINEERING: 24
+  DX: 12
+  AUTOMATION: 12
+  SMART_FACTORY: 14
+  QUALITY_DATA: 14
+  PROCESS_DATA: 14
+skills:
+  PYTHON: 18
+  SQL: 18
+  STATISTICS: 18
+  STREAMLIT: 18
+  AI: 18
+  POSTGRESQL: 18
+company_preferences:
+  SME: 8
+  STARTUP: 8
+  MID: 5
+  UNKNOWN: 3
+  LARGE: 0
+scoring:
+  skill_cap: 18
+  related_score: 8
+  negative_penalty: 20
+  recommendation_thresholds:
+    HIGH: 85
+    GOOD: 70
+    REVIEW: 50

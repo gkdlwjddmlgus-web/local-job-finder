@@ -1,0 +1,49 @@
+sources:
+  work24:
+    enabled: false
+    mode: official_api
+    policy_status: blocked_auth
+    auth_required: true
+    last_verified: "2026-10-09"
+    note: 공식 Open API는 고용24 기업회원 가입, 이용 신청, 심사 후 인증키가 필요함. 키 발급 전 비활성화.
+  job_alio:
+    enabled: false
+    mode: permitted_page
+    policy_status: unknown
+    auth_required: false
+    last_verified: "2026-10-10"
+    note: 공식 공개 API/feed와 자동수집 허용 근거를 확인하지 못해 페이지 수집을 구현하지 않음.
+  greenhouse_coupang:
+    enabled: false
+    mode: official_api
+    policy_status: allowed
+    auth_required: false
+    last_verified: "2026-10-10"
+    note: Greenhouse 공식 Job Board GET API는 공개·무인증이나, 확인한 671건에 부산·울산·대구·경남 소재 공고가 없어 현재 목적에 데이터가 불충분함.
+  daegu_seogu:
+    enabled: true
+    mode: public_file
+    policy_status: allowed
+    auth_required: false
+    last_verified: "2026-10-10"
+    note: 공공데이터포털 공식 CSV, 무료, 이용허락범위 제한 없음, 반기 갱신. Real-world validation source.
+  busan_jobs:
+    enabled: true
+    mode: official_api
+    policy_status: allowed
+    auth_required: true
+    last_verified: "2026-10-10"
+    note: 부산광역시 공공부문 일자리(채용) 공식 REST API. BUSAN_JOB_API_KEY 필요.
+  gyeongnam_jobs:
+    enabled: true
+    mode: official_api
+    policy_status: allowed
+    auth_required: true
+    last_verified: "2026-10-10"
+    note: 경상남도 일자리 공식 REST API. GYEONGNAM_JOB_API_KEY 필요.
+  manual_csv:
+    enabled: true
+    mode: manual_only
+    policy_status: allowed
+    auth_required: false
+    note: data/manual/manual_jobs.csv 또는 CLI 지정 CSV.

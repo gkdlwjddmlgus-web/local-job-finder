@@ -1,0 +1,7 @@
+company,title,region,company_size,career_text,education,employment_type,posted_at,deadline,requirement_text,preference_text,description,url,source,source_job_id
+부산테크,주니어 데이터 분석가,부산 해운대구,중소기업,신입,대졸,정규직,2026-10-01,2026-10-31,Python SQL 데이터 분석,,BI 대시보드 자동화,https://example.com/jobs/1,sample,1
+창원팩토리,공정 데이터 분석,경남 창원시,중소기업,경력 2년 이상,대졸,정규직,2026-10-02,2026-10-25,관련 경력 2년 이상 Python,영어 가능자 우대,공정 데이터 MES,https://example.com/jobs/2,sample,2
+울산AI,DX 자동화 담당,울산,스타트업,경력무관,대졸,정규직,2026-10-03,2026-11-01,TOEIC 700점 이상 필수,해외출장 가능자,Python AI 활용 자동화,https://example.com/jobs/3,sample,3
+김해데이터,생산 데이터 운영,경남 김해시,중견기업,신입/경력,대졸,정규직,2026-10-04,2026-11-05,신입 지원 가능 SQL,영어 활용 가능,생산 데이터 품질 데이터,https://example.com/jobs/4,sample,4
+부산테크,주니어 데이터 분석가,부산광역시 해운대구,SME,신입,대졸,정규직,2026-10-01,2026-10-31,Python SQL 데이터 분석,,BI 대시보드 자동화,https://example.com/jobs/1,sample,1-duplicate
+
